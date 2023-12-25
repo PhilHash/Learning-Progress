@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head >
-        <title>FreeCodeCamp Survey Form</title>
+        <title>Custom Survey Form</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
       <div>
-        <h1 id="title">freeCodeCamp Survey Form</h1>
-        <p id="description" class="italic">Thank you for taking the time to help us improve the platform</p>
+        <h1 id="title">Custom Survey Form</h1>
+        <p id="description" class="italic">Thanks for spend time taking this survey</p>
       </div>
       <div class="form-container">
         <form method="post" id="survey-form" action="https://survey-form.freecodecamp.rocks/">
           <fieldset>
             <label id="name-label" for="name">Name: <input type="text" name="name-info" id="name" required placeholder="Enter your name"></label>
             <label id="email-label" for="email">Email: <input type="email" name="email-info" id="email"  required placeholder="Enter your email"></label>
-            <label id="number-label" for="number">Age (optional): <input min="13" max="60" type="number" name="age"  id="number" placeholder="Enter your age"></label>
+            <label id="number-label" for="number">Age: <input min="13" max="60" type="number" name="age" required id="number" placeholder="Enter your age"></label>
             <label for="dropdown">Which option best describes your current role?
             <select name="dropdown-info" id="dropdown" required placeholder="Select current role">
               <option value="" disabled selected>Select current role</option>
@@ -26,7 +26,7 @@
               <option value="4">Other</option>
             </select>
             </label>
-            <p id="stay-left">Would you recommend freeCodeCamp to a friend?</p>
+            <p id="stay-left">Would you recommend this application to a friend?</p>
             <label for="radio-label1" class="stay-inline"> 
               <input type="radio" name="radio-info" id="radio-label1" required checked value="r1"> Definitely
             </label>
@@ -36,7 +36,7 @@
             <label for="radio-label3" class="stay-inline"> 
               <input type="radio" name="radio-info" id="radio-label3" required value="r3">Not sure
             </label>   
-            <label for="dropdown">What is your favorite feature of freeCodeCamp?
+            <label for="dropdown">What is your favorite feature of our-App?
               <select name="dropdown-info2" id="dropdown" required placeholder="Select an option">
                 <option value="" disabled selected>Select an option</option>
                 <option value="1">Challenges</option>
@@ -44,7 +44,7 @@
                 <option value="3">Community</option>
               </select>
               </label>
-              <p id="stay-left">Would you recommend freeCodeCamp to a friend?</p>
+              <p id="stay-left">Would you recommend our-App to a friend?</p>
               <label for="name-label1" class="stay-inline">
                   <input type="checkbox" name="checkbox-info" id="checkbox-label1" value="c1"> Front-end Projects
               </label>

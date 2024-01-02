@@ -1,5 +1,5 @@
 # Learning-Progress
-Free Code Camp Certificated Projects that I've accomplished
+Free Code Camp Certificated Projects that I've accomplished:
 
 You can view the code by: `git clone https://github.com/PhilHash/Learning-Progress`
 

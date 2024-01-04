@@ -56,9 +56,6 @@ ul {
     margin: 0 auto;
     line-height: 1.5;
 }
-div > pre {
-    max-width: 100%;
-}
 div > blockquote{
     font-style: italic;
     margin:0 auto;

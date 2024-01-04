@@ -1,0 +1,74 @@
+*{
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 18px;
+}
+body{
+    font-family:'Segoe UI', 'Roboto','Helvetica Neue', Arial, sans-serif;
+}
+main {
+    background-color: rgb(239, 239, 240);
+    border-radius: 8px;
+    padding:top
+}
+#img-div {
+    background-color: white;
+    text-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: max(600px,25vh);
+    width: 1000px;
+}
+figcaption{
+    font-size: 16px;
+    text-align: center;
+    margin-top:15px ;
+}
+
+#title {
+    text-align: center;
+}
+#title p {
+    font-size: 16px;
+    line-height: 0.5;
+}
+#title h1 {
+    font-size: 2.2rem;
+}
+div > h4{
+    text-align: center;
+    margin: 20px 0;
+}
+div > h3{
+    text-align: center;
+    margin: 40px 0;
+}
+ul {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+div > pre {
+    max-width: 100%;
+}
+div > blockquote{
+    font-style: italic;
+    margin:0 auto;
+    max-width: 500px;
+    line-height: 1.2;
+    font-size: 0.7;
+}
+#more-info {
+    max-width: 900px;
+    margin: 30px auto;
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+    text-align: center;
+}

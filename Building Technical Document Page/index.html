@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Tutorial</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>
+                <div name="header">
+                    <h1>HTML Documentation</h1>
+                </div>
+                <a class="nav-link" href="#HTML_Introduction"><h4>HTML Introduction</h4></a>
+                <a class="nav-link" href="#HTML_Basic"><h4>HTML Basic</h4></a>
+                <a class="nav-link" href="#HTML_Elements"><h4>HTML Elements</h4></a>
+                <a class="nav-link" href="#HTML_Attributes"><h4>HTML Attributes</h4></a>
+                <a class="nav-link" href="#HTML_Headings"><h4>HTML Headings</h4></a>
+            </header>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="HTML_Introduction">
+                <header>
+                    <h2>HTML Introduction</h2>
+                </header>
+                <p class="small-info">HTML is the standard markup language for creating Web pages.</p>
+                <h2>What is HTML?</h2>
+                <ul>
+                    <li>HTML stands for Hyper Text Markup Language</li>
+                    <li>HTML is the standard markup language for creating Web pages></li>
+                    <li>HTML describes the structure of a Web page</li>
+                </ul>
+                <h2>A Simple HTML Document</h2>
+                <div class="s-code"> 
+                    <h2>Example</h2>
+                    <pre>
+                        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+                            
+&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;
+                            
+&lt;/body&gt;
+&lt;/html&gt; 
+                        </code>
+                    </pre>
+                    
+                </div>
+            </section>
+            <section class="main-section" id="HTML_Basic">
+                <header><h2>HTML Basic</h2></header>
+                <p class="small-info">In this chapter we will show some basic HTML examples.</p>
+                <h2>A Simple HTML Document</h2>
+                <p>
+                    All HTML documents must start with a document type declaration: <code>&lt;!DOCTYPE html&gt;</code>
+                </p>
+                <div class="s-code"> 
+                    <h2>Example</h2>
+                    <pre>
+                        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+                            
+&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;
+                            
+&lt;/body&gt;
+&lt;/html&gt; 
+                        </code>
+                    </pre>
+                </div>
+                <h2>HTML Paragraphs</h2>
+                <p>HTML paragraphs are defined with the &lt;p&gt; tag</p>
+                <pre class="o-code">
+                    <code>
+&lt;h1&gt;This is a heading &lt;/h1&gt;
+                    </code>
+                </pre>
+            </section>
+            <section class="main-section" id="HTML_Elements">
+                <header><h2>HTML Elements</h2></header>
+                <p class="small-info">An HTML element is defined by a start tag, some content, and an end tag.</p>
+                <h3>HTML Elements</h3>
+                <p>The HTML element is everything from the start tag to the end tag:</p>
+&lt;tagname&gt;Content goes here...&lt;/tagname&gt;
+                 <p>Examples of some HTML elements:</p>
+                 <pre class="o-code">
+                    <code>
+&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;
+                    </code>
+                 </pre>
+            </section>
+            <section class="main-section" id="HTML_Attributes">
+                <header><h2>HTML Attributes</h2></header>
+                <p class="small-info">HTML attributes provide additional information about HTML elements.</p>
+                <div class="note">
+                    <li>All HTML elements can have <strong>attributes</strong></li>
+                    <li>Attributes provide <strong>additional information</strong> about elements</li>
+                </div>
+                <h3>The href Attribute</h3>
+                <p>Used to specifies the URL of the page the link goes to:</p>
+                <div class="s-code"> 
+                    <h2>Example</h2>
+                    <pre>
+                        <code>
+&lt;a href="https://www.w3schools.com"&gt;
+    Visit W3Schools
+&lt;/a&gt;
+                        </code>
+                    </pre>
+                </div>
+                <h3>The src Attribute</h3>
+                <p>Used to specifies specifies the path to the image to be displayed:</p>
+                <div class="s-code"> 
+                    <h2>Example</h2>
+                    <pre>
+                        <code>
+&lt;a img src="img_girl.jpg"&gt;
+                        </code>
+                    </pre>
+                </div>
+            </section>  
+            <section class="main-section" id="HTML_Headings">
+                <header><h2>HTML Headings</h2></header>
+                <p class="small-info">HTML headings are titles or subtitles that you want to display on a webpage.</p>
+                <h3>Headings Are Important</h3>
+                <p>Search engines use the headings to index the structure and content of your web pages.</p>
+                <div class="s-code"> 
+                    <h2>Example</h2>
+                    <pre>
+                        <code>
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt; 
+                        </code>
+                    </pre>
+                </div>
+                <p class="note1">Note: Browsers automatically add some white space (a margin) before and after a heading.</p>
+            </section>            
+        </main>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+*, ::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --df-color: aliceblue;
+    --em-color: #0a0a23;
+}
+h1{
+    padding: 35px 0;
+    font-size: 2.5rem;
+}
+#start{    
+    pointer-events: none;
+}
+#start div{
+    font-size: 2.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+#logo {
+    display: inline-block;
+    transform: scale(2.5);
+    vertical-align: text-top;
+    padding-bottom: 6px;
+}
+body{
+    background-color: var(--em-color);
+    color: var(--df-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    border-radius: 20px;
+    background-color: var(--df-color);
+    color: var(--em-color) !important;
+    width: 450px;
+    height: min(150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 20px;
+}
+label{
+    font-size: medium;
+    width: 100%;
+}
+input{
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    border: none;
+    border-bottom: 3px solid var(--em-color);
+    text-align: center;
+    margin-right: 15px;
+    background-color:  var(--df-color);
+}
+#check-btn{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    font-size: large;
+    width: 80px;
+    height: 40px;
+    color: var(--df-color) !important;
+    cursor: pointer;
+    transition: background-color 300ms;
+    
+}
+#check-btn:hover{
+    background-color: rgb(21, 101, 105);
+}
+#result{
+    height: 20px;
+    font-size: larger;
+}
+#small-note{
+    border-radius: 20px;
+    background-color: green !important;
+    font-weight: 900;
+    width: 450px;
+    height: 170px;
+    font-size: large;
+    text-align: justify;
+    padding: 24px;
+    margin-top: 30px ;
+}
+
+
+
